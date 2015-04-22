@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>NHibernate.Caches.Redis2</id>
-    <version>2.0.0.0</version>
+    <version>2.1.0.0</version>
     <authors>TrentCioran</authors>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>http://github.com/TheCloudlessSky/NHibernate.Caches.Redis</projectUrl>
@@ -13,7 +13,7 @@
     <copyright>Copyright Harbour Inc. 2012</copyright>
     <tags>redis caching nhibernate cache provider</tags>
     <dependencies>
-      <dependency id="ServiceStack.Redis" version="[3.9.71]" />
+      <dependency id="ServiceStack.Redis" version="[4.0.40.0]" />
       <dependency id="NHibernate" version="[4.0.3.4000]" />
     </dependencies>
   </metadata>

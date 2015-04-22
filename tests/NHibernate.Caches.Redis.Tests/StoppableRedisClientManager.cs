@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using ServiceStack.Redis;
+﻿using ServiceStack.Redis;
 using System.Net.Sockets;
 
 namespace NHibernate.Caches.Redis.Tests
@@ -19,7 +15,7 @@ namespace NHibernate.Caches.Redis.Tests
             this.Available = true;
         }
 
-        public ServiceStack.CacheAccess.ICacheClient GetCacheClient()
+        public ServiceStack.Caching.ICacheClient GetCacheClient()
         {
             if (Available)
             {
@@ -43,7 +39,7 @@ namespace NHibernate.Caches.Redis.Tests
             }
         }
 
-        public ServiceStack.CacheAccess.ICacheClient GetReadOnlyCacheClient()
+        public ServiceStack.Caching.ICacheClient GetReadOnlyCacheClient()
         {
             if (Available)
             {

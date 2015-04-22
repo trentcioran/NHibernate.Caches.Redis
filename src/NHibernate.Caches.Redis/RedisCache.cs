@@ -11,6 +11,8 @@ using System.Net.Sockets;
 
 namespace NHibernate.Caches.Redis
 {
+    using ServiceStack;
+
     public class RedisCache : ICache
     {
         private const string CacheNamePrefix = "NHibernate-Cache:";
